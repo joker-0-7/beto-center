@@ -1,0 +1,58 @@
+:root{
+    --mainColorDark: #222831;
+    --secondColorDark: #393E46;
+    --secondColor: #00ADB5;
+    --witeColor: #EEEEEE;
+}
+.navbar{
+    background-color: var(--mainColorDark);
+    color: var(--witeColor)
+}
+.navbar a{
+    color: var(--witeColor)
+}
+.navbar a:hover{
+    color: var(--secondColor)
+}
+.navbar .navbar-brand{
+    color: var(--secondColor)
+}
+
+.service{
+    background-image: url('/images/service.jpg');
+    min-height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #eee;
+}
+.overlay{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #33333398;
+}
+.service .overlay .row{
+    min-height: 70vh;
+}
+.service .overlay .row button.submit-now{
+    background-color: var(--secondColor);
+    color: var(--secondColorDark);
+    font-size: 20px;
+    font-weight: 600;
+}
+.service .overlay .row button.more{
+    background-color: var(--secondColorDark);
+    color: var(--secondColor);
+    font-size: 20px;
+    font-weight: 600;
+}
+.service .overlay .row .heading-service h1{
+    color: var(--secondColor);
+    font-size: 40px;
+}
+
+.service .overlay .row .informaiton{
+    font-size: 20px;
+}
